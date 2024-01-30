@@ -76,7 +76,7 @@ https://clickhouse.com/docs/en/intro
 
 ### metrics and queries
 
-![[Pasted image 20240130081130.png]]
+![[../Pasted image 20240130081130.png]]
 
 
 ![[Screenshot from 2024-01-30 08-21-05.png]]
