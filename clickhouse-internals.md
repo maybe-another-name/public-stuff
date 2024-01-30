@@ -76,14 +76,14 @@ https://clickhouse.com/docs/en/intro
 
 ### metrics and queries
 
-![[../Pasted image 20240130081130.png]]
+![](system_query_log.png)
 
 
-![[Screenshot from 2024-01-30 08-21-05.png]]
+![](table_partitions.png)
 
-![[Pasted image 20240130085427.png]]
+![](aggregation_query_speed.png)
 
-![[Pasted image 20240130085614.png]]
+![](aggregation_query_memory.png)
 
 ## distributed queries
 
@@ -92,7 +92,8 @@ https://clickhouse.com/docs/en/intro
 * querying this is compared to querying a view...
 * any node can be the 'initiator' node (which starts queries, and receives results from other nodes)
 * as with joins, you want to filter as much as possible locally (by doing sub-queries for examples)
-![[Screenshot from 2024-01-30 09-27-28.png]]
+![](distributed_queries_efficiency.png)
+
 ## joins
 * hash join
 	* load small/right into memory as hashtable
@@ -101,10 +102,6 @@ https://clickhouse.com/docs/en/intro
 
 ### comparing joins
 
-![[Screenshot from 2024-01-30 09-10-32.png]]
+![](comparing_join_and_subquery.png)
 
-vs:
-
-![[Screenshot from 2024-01-30 09-09-48.png]]
-
-![[Screenshot from 2024-01-30 09-13-35.png]]
+![](join_performance_tips.png)

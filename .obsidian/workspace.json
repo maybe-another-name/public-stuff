@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e986948c1b581e9",
+        "id": "995540435561a34a",
         "type": "tabs",
         "children": [
           {
-            "id": "50ee399a4493bd45",
+            "id": "e3853312b208ab75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 480.5
   },
   "right": {
     "id": "4c1ee6ea9790f4a6",
@@ -146,18 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50ee399a4493bd45",
+  "active": "e3853312b208ab75",
   "lastOpenFiles": [
+    "join_performance_tips.png",
+    "comparing_join_and_subquery.png",
+    "distributed_queries_efficiency.png",
+    "aggregation_query_memory.png",
+    "aggregation_query_speed.png",
+    "aggregation_queries.png",
+    "table_partitions.png",
+    "Pasted image 20240130081130.png",
+    "system_query_log.png",
+    "clickhouse-internals.md",
+    "Pasted.md",
+    "\"Pasted.md",
     "Screenshot from 2024-01-30 09-27-28.png",
     "Screenshot from 2024-01-30 09-13-35.png",
-    "Screenshot from 2024-01-30 09-10-32.png",
-    "Screenshot from 2024-01-30 09-09-48.png",
-    "Screenshot from 2024-01-30 08-21-05 1.png",
-    "Pasted image 20240130085614.png",
-    "Pasted image 20240130085427.png",
-    "Welcome.md",
-    "clickhouse-internals.md",
-    "Screenshot from 2024-01-30 08-21-05.png",
-    "Pasted image 20240130081130.png"
+    "Welcome.md"
   ]
 }
