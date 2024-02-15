@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clickhouse-joins.md.md",
+                "file": "sql-pitfalls.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clickhouse-joins.md.md",
+                "file": "sql-pitfalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clickhouse-joins.md.md",
+                "file": "sql-pitfalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "clickhouse-joins.md.md"
+                "file": "sql-pitfalls.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "e3853312b208ab75",
   "lastOpenFiles": [
+    "clickhouse-joins.md",
+    "clickhouse-internals.md",
+    "clickhouse-dictionaries-and-joins.md",
     "choosing-join-algo-memory.png",
-    "clickhouse-joins.md.md",
     "choosing-join-algo-time.png",
     "join_algos.png",
     "comparing_join_and_subquery.png",
-    "clickhouse-dictionaries-and-joins.md.md",
-    "clickhouse-internals.md.md",
-    "sql-pitfalls.md.md",
+    "sql-pitfalls.md",
     "system_query_log.png",
     "aggregation_query_memory.png",
     "dictionary_with_subquery.png",
