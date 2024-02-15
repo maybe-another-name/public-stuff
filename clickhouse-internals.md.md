@@ -100,6 +100,12 @@ https://clickhouse.com/docs/en/intro
 		* lots of columns/values can exhaust memory
 	* do things as a subquery so that more filtering/merging can be done before the join
 
+> *When running a JOIN, there is no optimization of the order of execution in relation to other stages of the query. The join (a search in the right table) is run before filtering in WHERE and before aggregation.”*
+> https://clickhouse.com/blog/faster-queries-dictionaries-clickhouse
+> https://clickhouse.com/docs/en/sql-reference/statements/select/join
+
+
+
 ### comparing joins
 
 ![](comparing_join_and_subquery.png)
