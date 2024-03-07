@@ -10,6 +10,30 @@ https://clickhouse.com/docs/en/cloud/bestpractices/asynchronous-inserts
         -> https://github.com/ClickHouse/clickhouse-java/blob/c69c8a8c5a4c273beb3b61b940009072d7a4d85f/clickhouse-jdbc/src/test/java/com/clickhouse/jdbc/ClickHouseStatementTest.java#L124-L155
 
 
+https://kb.altinity.com/altinity-kb-queries-and-syntax/async-inserts/        
+! they recommend batching instead of async...
+  relevant log tables:
+    system.part_log
+    system.uery_log
+    system.asynchronous_inserts
+
+! their lastest reference to version is a little dated now though...
+
+more info about monitoring: https://clickhouse.com/blog/monitoring-asynchronous-data-inserts-in-clickhouse
+
+https://kb.altinity.com/altinity-kb-schema-design/how-much-is-too-much/
+
+```
+Number of tables & partitions touched by a single insert
+If you have realtime / frequent inserts no more than few.
+
+For the inserts are rare - up to couple of dozens.
+```
+...should perhaps check how many partitions the table has (or would be creating?)
+
+
+
+
 # snippets
 
 writing a file to clickhouse: https://gist.github.com/den-crane/fd8e0c187fc6f7ee6037d254fb99667b
